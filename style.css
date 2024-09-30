@@ -1,37 +1,58 @@
-.container{
+.container {
     display: flex;
-    margin:91px 815px 903px 124;
+    margin: 91px 815px 903px 124;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-size: 55px;
     margin-top: 91px;
-    
+    margin-left: 124px;
 }
 
-.movies{
+.movies {
     font-size: 24px;
-    /* margin-left: 124px;
-    margin-bottom: 470px;
-    margin-right: 654px;
-    margin-top: 202px; */
-} 
-.image1{
-    /* padding-right: 151px;
-    margin-top: 238px; */
+    margin-left: 124px;
+    margin-right: 213px;
+    width: 600px;
+}
+
+.image1 {
+
     padding-right: 151px;
+    width: 290px;
+    height: 302px;
+    padding-left: 213px;
 
 }
-/* .image2{
-    padding-top: 511px;
-} */
-.wrapper{
-    display:flex;
+
+.image2 {
+    width: 343px;
+    height: 59px;
+    margin-left: 195px;
+    margin-top: -5px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 103px;
+    margin-bottom: 192px;
     
 }
-.image3{
+
+.image3 {
     padding-left: 124px;
 }
+
+.image4 {
+    padding-top: 0px;
+    padding-left: 138px;
+    padding-right: 500px;
+    width: 189px;
+}
+
 /* .image4{
     padding-left: 157px;
 } */
@@ -45,3 +66,30 @@ h1{
     padding-bottom:157px;
     padding-right: 1094px;
 } */
+p {
+    /* width: 400px; */
+    font-size: 18px;
+    /* padding-left: 0px; */
+}
+
+.lesson {
+    /* padding-right: 120px; */
+    width: 150px;
+
+}
+
+.hours {
+    width: 150px;
+    /* padding-left: 20px; */
+}
+
+.course {
+    width: 150px;
+    /* padding-left: 225px; */
+}
+
+h2 {
+    font-size: 25px;
+    /* padding-left: 0px */
+
+}
