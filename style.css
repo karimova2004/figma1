@@ -1,20 +1,25 @@
 .container {
     display: flex;
-    margin: 91px 815px 903px 124;
+    /* margin: 91px 815px 903px 124; */
     box-sizing: border-box;
+    background-color: red;
 }
 
+.
 
-@media screen and (min-width: 1400px) {
+
+/* @media screen and (min-width: 1400px) {
     .container {
         display: flex;
         justify-content: space-around;
-        /* padding: 20px; */
+       
     }
-}
-body{
+} */
+
+body {
     font-family: Roboto;
 }
+
 h1 {
     font-size: 55px;
     margin-top: 91px;
@@ -28,16 +33,27 @@ h1 {
     margin-right: 213px;
     width: 600px;
 }
-.item{
+
+.item {
     margin-right: 151px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 .image1 {
-
+    position: relative;
     padding-right: 151px;
     width: 290px;
     height: 302px;
     padding-left: 213px;
+
+
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -45,29 +61,33 @@ h1 {
     width: 343px;
     height: 59px;
     margin-left: 195px;
-    margin-top: -5px;
+    margin-top: -30px;
 }
 
 .wrapper {
     display: flex;
- 
+
     justify-content: space-between;
     box-sizing: border-box;
     margin-top: 103px;
     margin-bottom: 192px;
-    
+
 }
 
 
 .image3 {
+    position: relative;
     padding-left: 124px;
+    width: 222px;
+    height: 194px;
 }
 
 .image4 {
-    padding-top: 0px;
-    padding-left: 138px;
+    margin-top: -16px;
+    padding-left: 33px;
     padding-right: 500px;
     width: 189px;
+    margin-left: 124px;
 }
 
 /* .image4{
@@ -92,8 +112,8 @@ p {
 .lesson {
     /* padding-right: 120px; */
     width: 150px;
-    margin-left: -273px;
-    margin-right: 220px;
+    margin-left: -300px;
+    margin-right: auto;
 }
 
 
@@ -115,11 +135,12 @@ h2 {
     /* padding-left: 0px */
 
 }
+
 /* .son{
     padding-right: 314px;
 } */
 
-@media screen and (min-width: 834px) and (max-width: 1399px) {
+/* @media screen and (min-width: 834px) and (max-width: 1399px) {
     .course-info {
         display: flex;
         flex-direction: column;
@@ -127,10 +148,11 @@ h2 {
         margin-top: 20px;
     }
 }
-    @media screen and (min-width: 375px) and (max-width: 833px) {
-        .course-info {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-        }
+
+@media screen and (min-width: 375px) and (max-width: 833px) {
+    .course-info {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
     }
+} */
